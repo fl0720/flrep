@@ -1,0 +1,37 @@
+{
+  "id": "4804431",
+  "name": "智能巡检",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "43046991",
+      "name": "camera-fill",
+      "font_class": "camera-fill",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3904586",
+      "name": "智能设备",
+      "font_class": "zhinengshebei",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "9203421",
+      "name": "传感器",
+      "font_class": "icons-speed",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "28830399",
+      "name": "网关",
+      "font_class": "wangguan",
+      "unicode": "e74d",
+      "unicode_decimal": 59213
+    }
+  ]
+}

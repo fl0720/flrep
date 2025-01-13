@@ -4,18 +4,19 @@ const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({transpileDependencies: true});
 
 module.exports = {
-	publicPath: "/Heimatoutiao/",
+	publicPath: "/flrep/",
 	lintOnSave: false,
 	// publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
 
 	//代理服务器
 	devServer: {
 		proxy: {
-			"/api": {
-				target      : "http://api-toutiao-web.itheima.net", //代理转发路径
-				ws          : true, //支持websocket
-				changeOrigin: true //跨域
-			}
+			'/api': {
+				target: 'http://localhost:8080',
+				changeOrigin: true,
+				pathRewrite: { '^/api': '' },  // 这个可以根据需要调整
+			},
 		}
-	}
+	},
+
 };
